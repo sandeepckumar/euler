@@ -9,8 +9,6 @@ def sum_of_multiples(x,y,limit):
     multiples = [_ for _ in range(limit) if _%x == 0 or _%y==0]
     return functools.reduce(lambda x,y: x + y, multiples)
 
-    return (x_multiples, y_multiples)
-
 def optimized_solution(x,y,limit):
     pass
 
